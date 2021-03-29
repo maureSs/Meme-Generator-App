@@ -1,17 +1,14 @@
-import React from 'react'
-import '../style.css'
+import React from 'react';
+import '../style.css';
+import trollface from '../image/trollface.png';
 
-function Header (){
-    return (
-        <header className = "header">
-            <img 
-            src = "http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" 
-            alt = "Problem?"
-            />
-            <p>Meme Generator</p>
-        </header>
-    )
+function Header() {
+  return (
+    <header className='header'>
+      <img src={trollface} alt='Problem?' />
+      <p>Meme Generator</p>
+    </header>
+  );
 }
 
-export default Header
-
+export default Header;
